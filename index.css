@@ -1,0 +1,283 @@
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+}
+
+header, section, footer {
+  overflow: auto;
+}
+
+header {
+    display: relative;
+    background-color: antiquewhite;
+}
+
+header nav{
+    font-family: Verdana;
+    font-size: 18px;
+    padding-left: 10%;
+}
+
+header nav li{
+    display: inline-block;
+    text-align: right;
+    padding-right:5%;
+    float:left;
+}
+
+.search-form{
+    float:right;
+    padding-bottom: 5px;
+    margin-right:10%;
+}
+
+.search{
+    display: inline-block;
+    width: 150px;
+    padding:5px;
+    border:none;
+    border:1px solid Black;
+    font-size: 14px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+header button{
+    float:right;
+    background:lightblue;
+    color:white;
+    border-radius:0 5px 5px 0;
+    cursor:pointer;
+    position:relative;
+    padding:7px;
+    font-family:sans-serif;
+    border:none;
+    font-size: 13px;
+}
+
+#Logo img{
+    display: block;
+    margin: 0 auto;
+}
+
+#Banner {
+    background-image: url(flower.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color:#fff;
+    padding-top: 150px;
+    padding-bottom: 80px;
+    padding-right: 80px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#Banner p{
+  font-family: 'Antic Didone', serif;
+}
+#pics {
+    text-align: center;
+    width:1280px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+#pics h3{
+  font-family: 'Satisfy',cursive;
+  font-size: 30px;
+  border-radius:5px 5px 5px 5px;
+  width: 400px;
+  border-color: pink;
+  border-style: solid;
+  border-width: thick;
+  margin:auto;
+}
+
+#pics figure {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height:200px;
+    margin: 1em 10px;
+    float: left;
+    text-align: center;
+}
+
+#pics figure img {
+    max-width: 300px;
+    max-height:200px;
+}
+
+#pics figcaption{
+    background-color:rgba( 0, 0, 0, 0.5 );
+    color:#fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    transition: 0.5s;
+}
+
+#pics figcaption:hover {
+ opacity: 0;
+}
+
+
+#blog{
+    width:1260px;
+    margin: auto;
+}
+
+#blog h1{
+    text-align: center;
+    margin-top: 15%;
+}
+#blog h4{
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  font-size: 30px;
+  border-radius:5px 5px 5px 5px;
+  width: 400px;
+  border-color: pink;
+  border-style: solid;
+  border-width: thick;
+  margin:auto;
+}
+#blog p{
+    text-align: center;
+    margin: 10%;
+    margin-top: 5%;
+}
+
+#blog figure{
+    display: inline-block;
+    margin:0px;
+}
+
+#blog img{
+    max-width: 600px;
+    max-height:400px;
+}
+#blog h1{
+  font-family:'Shadows Into Light',cursive;
+  font-size: 40px;
+}
+
+#blog h4{
+  font-family: 'Satisfy', cursive;
+}
+#blog p{
+  font-family: 'Poiret One', cursive;
+  font-size:20px;
+}
+
+#blog .blog1{
+    background-color: burlywood;
+    height:400px;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 15px;
+}
+
+#blog .blog1 div{
+    float:right;
+    height:400px;
+    width: 630px;
+}
+
+#blog .blog2{
+    background-color: mediumseagreen;
+    height:400px;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 15px;
+}
+
+#blog .blog2 figure {
+    float:right;
+    height:400px;
+}
+
+#blog .blog2 div{
+    float:right;
+    height:400px;
+    width: 630px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: mediumpurple;
+}
+
+footer li{
+    display: inline-block;
+    text-align: right;
+    padding-right:10%;
+    font-family: Verdana;
+    font-size: 18px;
+    color: white;
+}
+
+footer p{
+    font-size: 20px;
+    display: inline;
+    margin-left: 30px;
+    text-align: right;
+}
+
+footer .desc{
+    color: purple;
+    background-color:beige;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 10px;
+    padding-bottom: 5%;
+}
+
+.sub-form{
+    padding: 10px;
+}
+
+.sub{
+    display: inline-block;
+    width: 200px;
+    padding:5px;
+    border:none;
+    border:1px solid Black;
+    font-size: 18px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+
+
+footer button{
+    background:Red;
+    color:white;
+    border-radius:5px 5px 5px 5px;
+    cursor:pointer;
+    position:relative;
+    padding:7px;
+    font-family:sans-serif;
+    border:none;
+    font-size: 16px;
+}
+
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+footer h1{
+  font-family:'Permanent Marker', cursive;
+}
+footer p{
+  font-family: 'Antic Didone', serif;
+}
